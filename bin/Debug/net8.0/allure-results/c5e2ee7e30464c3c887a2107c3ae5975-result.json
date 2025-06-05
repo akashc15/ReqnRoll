@@ -1,0 +1,239 @@
+{
+  "uuid": "1210d10c-2a00-46f8-bc7c-f6708357a636",
+  "historyId": "3804de848a2c5058e02fb777f94a72c5",
+  "testCaseId": "0f18e8eeff7aeadd5b681fee80f3abb0",
+  "fullName": "ReqnrollProject/Features/StudentRegistration/Verify Student Registration with valid credentails",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTOMRSADW6VFJ3"
+    },
+    {
+      "name": "thread",
+      "value": "NonParallelWorker"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.StudentRegistration"
+    },
+    {
+      "name": "feature",
+      "value": "StudentRegistration"
+    },
+    {
+      "name": "tag",
+      "value": "Regression,"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    }
+  ],
+  "links": [],
+  "name": "Verify Student Registration with valid credentails",
+  "status": "broken",
+  "statusDetails": {
+    "known": false,
+    "muted": false,
+    "flaky": false,
+    "message": "element click intercepted: Element is not clickable at point (1117, 663)\n  (Session info: MicrosoftEdge=137.0.3296.62)",
+    "trace": "OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1117, 663)\n  (Session info: MicrosoftEdge=137.0.3296.62)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at ReqnrollProject1.Pages.StudentRegistrationPage.SubmitForm() in C:\\Users\\akcha\\source\\repos\\ReqnrollProject\\ReqnrollProject\\Pages\\StudentRegistrationPage.cs:line 105\r\n   at ReqnrollProject1.StepDefinitions.StudentRegistrationStepDefinitions.ThenTheFormIsSubmittedSuccessfully() in C:\\Users\\akcha\\source\\repos\\ReqnrollProject\\ReqnrollProject\\StepDefinitions\\StudentRegistrationStepDefinitions.cs:line 143\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.OnAfterLastStepAsync()\r\n   at Reqnroll.TestRunner.CollectScenarioErrorsAsync()\r\n   at Allure.ReqnrollPlugin.SelectiveRun.TestPlanAwareTestRunner.CollectScenarioErrorsAsync()\r\n   at ReqnrollProject.Features.StudentRegistrationFeature.ScenarioCleanupAsync()\r\n   at ReqnrollProject.Features.StudentRegistrationFeature.VerifyStudentRegistrationWithValidCredentails() in C:\\Users\\akcha\\source\\repos\\ReqnrollProject\\ReqnrollProject\\Features\\StudentRegistration.feature:line 19\r\n   at NUnit.Framework.Internal.TaskAwaitAdapter.GenericAdapter`1.GetResult()\r\n   at NUnit.Framework.Internal.AsyncToSyncAdapter.Await(Func`1 invoke)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.RunTestMethod(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.TestMethodCommand.Execute(TestExecutionContext context)\r\n   at NUnit.Framework.Internal.Commands.BeforeAndAfterTestCommand.<>c__DisplayClass1_0.<Execute>b__0()\r\n   at NUnit.Framework.Internal.Commands.DelegatingTestCommand.RunTestMethodInThreadAbortSafeZone(TestExecutionContext context, Action action)"
+  },
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given User is on the student registration page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749105261541,
+      "stop": 1749105268651
+    },
+    {
+      "name": "When User enters the Name \"Akash\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749105268651,
+      "stop": 1749105268858
+    },
+    {
+      "name": "When User enters the Email \"akash@gmail.com\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749105268858,
+      "stop": 1749105269007
+    },
+    {
+      "name": "When User selects the Gender \"Male\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749105269007,
+      "stop": 1749105269165
+    },
+    {
+      "name": "When User enters the Mobile \"797483683\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749105269166,
+      "stop": 1749105269263
+    },
+    {
+      "name": "When User enters the Date of Birth \"2003-02-15\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749105269264,
+      "stop": 1749105269348
+    },
+    {
+      "name": "When User enters the Subjects \"Maths\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749105269348,
+      "stop": 1749105269435
+    },
+    {
+      "name": "When User selects the Hobbies \"Sports, Music\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749105269435,
+      "stop": 1749105269644
+    },
+    {
+      "name": "When User enters the Current Address \"abcd\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749105269644,
+      "stop": 1749105269735
+    },
+    {
+      "name": "When User selects the State \"Uttar Pradesh\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749105269735,
+      "stop": 1749105269834
+    },
+    {
+      "name": "When User selects the City \"Lucknow\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749105269834,
+      "stop": 1749105269952
+    },
+    {
+      "name": "Then The form is submitted successfully",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "element click intercepted: Element is not clickable at point (1117, 663)\n  (Session info: MicrosoftEdge=137.0.3296.62)",
+        "trace": "OpenQA.Selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (1117, 663)\n  (Session info: MicrosoftEdge=137.0.3296.62)\r\n   at OpenQA.Selenium.WebDriver.UnpackAndThrowOnError(Response errorResponse, String commandToExecute)\r\n   at OpenQA.Selenium.WebDriver.ExecuteAsync(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebDriver.Execute(String driverCommandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Execute(String commandToExecute, Dictionary`2 parameters)\r\n   at OpenQA.Selenium.WebElement.Click()\r\n   at ReqnrollProject1.Pages.StudentRegistrationPage.SubmitForm() in C:\\Users\\akcha\\source\\repos\\ReqnrollProject\\ReqnrollProject\\Pages\\StudentRegistrationPage.cs:line 105\r\n   at ReqnrollProject1.StepDefinitions.StudentRegistrationStepDefinitions.ThenTheFormIsSubmittedSuccessfully() in C:\\Users\\akcha\\source\\repos\\ReqnrollProject\\ReqnrollProject\\StepDefinitions\\StudentRegistrationStepDefinitions.cs:line 143\r\n   at InvokeStub_Action`1.Invoke(Object, Span`1)\r\n   at System.Reflection.MethodBaseInvoker.InvokeWithOneArg(Object obj, BindingFlags invokeAttr, Binder binder, Object[] parameters, CultureInfo culture)\r\n--- End of stack trace from previous location ---\r\n   at Reqnroll.Bindings.BindingInvoker.InvokeBindingAsync(IBinding binding, IContextManager contextManager, Object[] arguments, ITestTracer testTracer, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepMatchAsync(BindingMatch match, Object[] arguments, DurationHolder durationHolder)\r\n   at Reqnroll.Infrastructure.TestExecutionEngine.ExecuteStepAsync(IContextManager contextManager, StepInstance stepInstance)"
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749105269952,
+      "stop": 1749105271094
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1749105261540,
+  "stop": 1749105271101
+}

@@ -1,0 +1,156 @@
+{
+  "uuid": "09d6b432-446c-4336-9b33-248a9a0bc24e",
+  "historyId": "756b6d76fd732ba1068353c59474ea4d",
+  "testCaseId": "f7a1d28468c099ec01367279559d337d",
+  "fullName": "ReqnrollProject/Features/Login/Verify Login with diff test parameters valid credentails",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTOMRSADW6VFJ3"
+    },
+    {
+      "name": "thread",
+      "value": "ParallelWorker#3"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.Login"
+    },
+    {
+      "name": "feature",
+      "value": "Login"
+    },
+    {
+      "name": "tag",
+      "value": "Sanity"
+    }
+  ],
+  "links": [],
+  "name": "Verify Login with diff test parameters valid credentails",
+  "status": "broken",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given User is on the orangehrm login page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107535956,
+      "stop": 1749107541603
+    },
+    {
+      "name": "Given User is on the orange hrm login page",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107541603,
+      "stop": 1749107541686
+    },
+    {
+      "name": "When User enters the \"Ad\" and \"adn\"",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107541686,
+      "stop": 1749107541699
+    },
+    {
+      "name": "When User clicks on submit button",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107541699,
+      "stop": 1749107541699
+    },
+    {
+      "name": "Then User is navigated to home page",
+      "status": "skipped",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107541699,
+      "stop": 1749107541699
+    },
+    {
+      "name": "Then User selected city and country informatiion",
+      "status": "broken",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false,
+        "message": "No matching definition found for this step."
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [
+        {
+          "name": "Data Table",
+          "source": "4b5474a0-cd97-4321-bee8-9f9735e0f609-attachment.csv",
+          "type": "text/csv"
+        }
+      ],
+      "parameters": [],
+      "start": 1749107541715,
+      "stop": 1749107541730
+    }
+  ],
+  "attachments": [],
+  "parameters": [
+    {
+      "name": "username",
+      "value": "\"Ad\"",
+      "excluded": false
+    },
+    {
+      "name": "password",
+      "value": "\"adn\"",
+      "excluded": false
+    }
+  ],
+  "start": 1749107535955,
+  "stop": 1749107541776
+}

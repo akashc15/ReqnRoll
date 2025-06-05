@@ -1,0 +1,230 @@
+{
+  "uuid": "2c97d697-afc3-4204-815c-b0ab2fee8216",
+  "historyId": "3804de848a2c5058e02fb777f94a72c5",
+  "testCaseId": "0f18e8eeff7aeadd5b681fee80f3abb0",
+  "fullName": "ReqnrollProject/Features/StudentRegistration/Verify Student Registration with valid credentails",
+  "labels": [
+    {
+      "name": "host",
+      "value": "AUTOMRSADW6VFJ3"
+    },
+    {
+      "name": "thread",
+      "value": "ParallelWorker#1"
+    },
+    {
+      "name": "language",
+      "value": "C#"
+    },
+    {
+      "name": "framework",
+      "value": "Reqnroll"
+    },
+    {
+      "name": "package",
+      "value": "Features.StudentRegistration"
+    },
+    {
+      "name": "feature",
+      "value": "StudentRegistration"
+    },
+    {
+      "name": "tag",
+      "value": "Regression,"
+    },
+    {
+      "name": "tag",
+      "value": "Functional"
+    }
+  ],
+  "links": [],
+  "name": "Verify Student Registration with valid credentails",
+  "status": "passed",
+  "stage": "finished",
+  "steps": [
+    {
+      "name": "Given User is on the student registration page",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107536588,
+      "stop": 1749107543745
+    },
+    {
+      "name": "When User enters the Name \"Akash\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107543745,
+      "stop": 1749107543937
+    },
+    {
+      "name": "When User enters the Email \"akash@gmail.com\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107543937,
+      "stop": 1749107544051
+    },
+    {
+      "name": "When User selects the Gender \"Male\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107544051,
+      "stop": 1749107544199
+    },
+    {
+      "name": "When User enters the Mobile \"797483683\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107544199,
+      "stop": 1749107544321
+    },
+    {
+      "name": "When User enters the Date of Birth \"2003-02-15\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107544322,
+      "stop": 1749107544566
+    },
+    {
+      "name": "When User enters the Subjects \"Maths\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107544566,
+      "stop": 1749107544699
+    },
+    {
+      "name": "When User selects the Hobbies \"Sports, Music\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107544699,
+      "stop": 1749107544936
+    },
+    {
+      "name": "When User enters the Current Address \"abcd\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107544936,
+      "stop": 1749107545023
+    },
+    {
+      "name": "When User selects the State \"Uttar Pradesh\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107545023,
+      "stop": 1749107545172
+    },
+    {
+      "name": "When User selects the City \"Lucknow\"",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107545172,
+      "stop": 1749107545274
+    },
+    {
+      "name": "Then The form is submitted successfully",
+      "status": "passed",
+      "statusDetails": {
+        "known": false,
+        "muted": false,
+        "flaky": false
+      },
+      "stage": "finished",
+      "steps": [],
+      "attachments": [],
+      "parameters": [],
+      "start": 1749107545274,
+      "stop": 1749107545501
+    }
+  ],
+  "attachments": [],
+  "parameters": [],
+  "start": 1749107536586,
+  "stop": 1749107545504
+}

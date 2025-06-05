@@ -1,0 +1,7 @@
+12:42:15 - Opening the Browser
+12:42:16 - Opening the Browser
+12:42:18 - Opening the Browser
+12:42:26 - Opening the Browser
+12:42:32 - Entering the username nd password
+12:42:32 - CLicked
+12:42:33 - displayed
